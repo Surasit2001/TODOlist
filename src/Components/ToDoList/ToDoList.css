@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.nav {
+    
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    margin: 1rem;
+}
+
+.nav button{
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    background: none;
+}
+.nav button :hover{
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    background: none;
+    color: rgb(255, 106, 0);
+}
+
+.Area_list {
+    width: 700px;
+    height: 100%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.Add_nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.inputTasks button {
+    font-size: 15px;
+    margin-right: 1rem;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(42, 163, 237);
+    border-radius: 5px;
+}
+
+.inputTasks button:hover {
+    cursor: pointer;
+    background-color: rgb(19, 132, 225);
+}
+
+.task_list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.list_nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius:10px; 
+}
+
+
+
+.task_details {
+    max-width: 500px; 
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.task_details p {
+    margin: 0.5rem;
+    font-size: 15px;
+    
+}
+
+.Edit_delete {
+    display: flex;
+    gap: 10px;
+}
+
+.edit_button, .delete_button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.delete_button {
+    
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    background: none;
+}
+
+
+
+.edit_button {
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    color: rgb(65, 245, 74);
+    background: none;
+}
+
+
+.model_de {
+    background:none;
+    color: black;
+    font-size: 15px;
+}
