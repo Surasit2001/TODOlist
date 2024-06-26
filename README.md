@@ -1,8 +1,11 @@
-# React + Vite
+วิธีการใช้งาน 
+1 แอดTask 
+2 Submit Task 
+3 เช็ค ว่ามีTask ไหนที่ยังไม่ถูกกระทำบ้าง
+4 ถ้ากระทำTask ไหนไปล้วมั้ง กดตรงช่อง CheakBox  เพื่อเปลี่ยนกรอบเป็นสีเขียว 
+5 สามารถเข้าไปแก้ไขข้อมูลTask ที่ถูก Add มาได้
+6 สามารถลงบ Task ที่ถูกกระทำแล้วได้ 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+โปรเจคชิ้นนี้ ถูกผู้พัฒนาด้วย ภาษา CSS HTML JS และใช้ REACT เป็น framework  js ช่วยพัฒนา  และ ใช้ ant design framework ช่วยตกแต่งลูกเล่นให้โปรเจค 
+ใช้Chat GPT ช่วยแก้ไขโค็ด และทำให้โค็ดเสร็จสมบูรณ์
